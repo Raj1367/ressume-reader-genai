@@ -1,0 +1,40 @@
+{
+  "name": "genaiproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.5",
+    "@types/prompt-sync": "^4.2.3",
+    "dotenv": "^17.3.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@chroma-core/default-embed": "^0.1.9",
+    "@chroma-core/openai": "^0.1.9",
+    "@langchain/anthropic": "^1.3.22",
+    "@langchain/core": "^1.1.30",
+    "@langchain/openai": "^1.2.12",
+    "@langchain/textsplitters": "^1.0.1",
+    "@pinecone-database/pinecone": "^7.1.0",
+    "chromadb": "^3.3.1",
+    "express": "^5.2.1",
+    "langchain": "^1.2.29",
+    "langchain-js-restorable-memory-vectorstore": "^0.0.1",
+    "openai": "^6.25.0",
+    "pdf-parse": "^2.4.5",
+    "prompt-sync": "^4.2.0",
+    "zod": "^4.3.6"
+  }
+}
